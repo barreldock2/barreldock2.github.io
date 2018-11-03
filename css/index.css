@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,span{
+    text-decoration: none;
+}
+
+.bgi_Personal
+{
+    background-color: #39304A;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.bgi_Personal-Card {
+    margin-top: 40px;
+    width: 700px;
+    height: 300px;
+    background-color: ghostwhite;
+    padding: 24px 24px 24px 248px;
+    position: relative;
+  }
+.bgi_Personal-Card-imgProfile
+{
+    width: 200px;
+    position: absolute;
+  top: -24px;
+  bottom: -24px;
+  left: 24px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+
+}
+.bgi_Personal-location
+{
+    margin-top:  130px;
+}
+
+@media print
+{
+img, .bgi_Header
+{
+display: none;
+}
+}
+
+@media screen and (min-width: 576px)
+{
+.bgi_Header
+{
+padding: 12 px 25px;
+}
+}
+
+@media screen and (min-width: 576px)
+{
+.bgi_Header
+{
+padding: 12 px 25px;
+}
+}
